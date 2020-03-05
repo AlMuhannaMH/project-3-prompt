@@ -1,14 +1,15 @@
 # ![GA Logo](https://ga-dash.s3.amazonaws.com/production/assets/logo-9f88ae6c9c3871690e33280fcf557f33.png) 
 
-# Project #4: Full Stack Application
+# Project #3: Full Stack Application
 
 ## Overview:
 
-For your 4th project, you'll have the choice of building a **MERN** stack app or a **Rails API + React** app. Use your imagination! You get to create whatever you want for this app. You can even use **React Native** for your project.
+Your team will be creating a full stack application using Express and MongoDB along with ReactJS a.k.a the **MERN** stack.
 
+Use your imagination! You get to create whatever you want for this app.
 Though, you'll need to run your user stories, wireframes, and ERD's by your
 instructors to get their feedback and approval before you begin coding! Remember
-to keep things small and focus on mastering the fundamentals – scope
+to keep things small and focus on mastering the fundamentals as scope
 creep/feature creep is the biggest pitfall for any project!
 
 Identify what you need to build and accomplish to meet project expectations and
@@ -16,7 +17,7 @@ identify everything else as stretch goals. If you meet your MVP (Minimum Viable
 Product) ahead of schedule, you can decide which remaining goals to focus on for the
 remainder of your time.
 
-**You will be working as a team or individual for this project**, everyone must contribute if on a team. If 1 person does not contribute or 1 person does all the work then the entire team will fail the project requirements. If you pair program then please include the other persons github name in the commit.
+**You will be working as a team for this project**, everyone must contribute on a team. If 1 person does not contribute or 1 person does all the work then the entire team will fail the project requirements. If you pair program then please include the other persons GitHub name in the commit.
 
 ## What You've Learned
 
@@ -31,9 +32,6 @@ By the time you submit this project, you will have covered new ground in, and re
 - **Responsive Web Design**: Making web applications that respond to device size.
 - **Server Side Applications**: Server-side scripting is a technique used in web development which involves employing scripts on a web server which produce a response customized for each user's (client's) request to the website.
 - **Databases**: A structured set of data held in a computer, especially one that is accessible in various ways.
-- **SQL**: SQL is used to communicate with a database. It is the standard language for relational database management systems. SQL statements are used to perform tasks such as update data on a database, or retrieve data from a database.
-- **Ruby**: Ruby programming fundamentals including Object Oriented Programming with Classes and Inheritance.
-- **Ruby on Rails**: A web-application framework that includes everything needed to create database-backed web applications according to the Model-View-Controller (MVC) pattern.
 - **AJAX**: Using Axios to make asynchronous javascript calls.
 - **APIs**: Communicating to an API using Axios to fetch data.
 - **Node**: An open-source, cross-platform JavaScript run-time environment that executes JavaScript code outside of a browser.
@@ -46,8 +44,24 @@ By the time you submit this project, you will have covered new ground in, and re
 
 ## Requirements
 
+### General Requirements
+
 - **Build a full stack web application**. Must be your own work.
 - **Select a Project Idea of your own**.
+- Use Express with React to build your application
+- Deploy on Heroku so application is live on the web
+- Craft a `README.md` file that explains your app to the world
+
+### Project Planning
+
+- Plan your application using
+  - User Stories
+  - Wireframes
+  - Entity Relationship Diagram's (ERD)
+- Present your project idea along with your planning documentation on **Wednesday 11/03** for project approval.
+
+### Technical Requirements
+
 - Have at _least_ 2 models (more if it makes sense)
   - Auth is **NOT** a requirement
 - Have full CRUD on at _least_ one of your models
@@ -60,37 +74,46 @@ By the time you submit this project, you will have covered new ground in, and re
     - Short and clear functions that _do one thing_
     - Efficient code - if you have your MVP, refactor
     - DRY (Don't Repeat Yourself) code
-- **Use technology stack templates**.  You may choose which tech stack.
-  - [Rails API Template](https://github.com/sei-relativity/rails-api-template) with [React Template](https://github.com/sei-relativity/react-template)
-  - [Express API Template](https://github.com/sei-relativity/express-api-template) with [React Template](https://github.com/sei-relativity/react-template)
+- **Use MERN stack templates**.  You may choose not to, but you will need to get an approval.
+  - [Express API Template](https://github.com/sei-entropy/express-api-template) with [React Template](https://github.com/entropy/react-template)
 - Be deployed on Heroku
 - **Craft a `README.md` file that explains your app**.
 
+### Stretch Goals
+
+- Build a UML Use-case diagram
+- Use a 3rd party API 
+- Make application responsive
+- High quality, professional design
+- Redux
+- Automated Tests Using Jest or other Testing Frameworks
+- Allow users to upload files
+
+### Team Requirements
+
+- Every team member must have commits contributing to the project.
+- Pair programming is allowed and should be noted in the commit by using @github_username of each developer pairing
+- No single developer should do a majority of the commits
+
 ### Necessary Deliverables
 
-Projects are due **Thursday, 19/12 at 10am**!  
+Projects are due **Thursday, 19/03 at 09am**!  
 
 Submissions will be submitted by posting into a Google Sheet
+
 - a link to your deployed application 
 - a link to your github repository
 
-The presentation must be a **5-10 minute presentation** in which you answer the following questions:
-  - What is the application about?
-  - What are the user stories for your application?
-  - What API did you choose to use?
-  - Demo of the application
-  - Walk through a piece of code
-  - What was the most difficult part of the project?
-  - What was your favorite part of the project
-  - What would your team like to add next?
-  
-### Stretch Goals
+A **10 minute presentation** in which your team will answer the following questions:
 
-- Use a 3rd party API 
-- Mobile Responsive
-- High quality, professional design
-- Redux
-- Automated Tests Using Jest / RSpec or MiniTest for Rails
+  - What is the application about?
+  - Is there any information you think might help us understand what you built?
+  - Demo of application
+  - What features did you include?
+    - Make sure to explain anything "new" (things that we didn't cover in class)
+  - What was the most difficult part of the project?
+  - What was your favorite part to work on?
+  - What would you like to add next?
 
 ---
 
@@ -103,7 +126,7 @@ The presentation must be a **5-10 minute presentation** in which you answer the 
 
 ## Useful Resources
 
-- **[Rails JSON API Docs](https://guides.rubyonrails.org/api_app.html)**
-- **[Heroku Deployment Rails](https://devcenter.heroku.com/articles/getting-started-with-rails5)**
 - **[React.js](https://reactjs.org/)**
 - **[React Deployment Guide](https://github.com/gitname/react-gh-pages)**
+- **[Git Team Workflow](https://www.atlassian.com/git/tutorials/comparing-workflows)**
+- **[Git Team Cheatsheet](https://jameschambers.co/writing/git-team-workflow-cheatsheet/)**

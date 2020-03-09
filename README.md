@@ -7,7 +7,7 @@
 Your team will be creating a full stack application using Express and MongoDB along with ReactJS a.k.a the **MERN** stack.
 
 Use your imagination! You get to create whatever you want for this app.
-Though, you'll need to run your user stories, wireframes, and ERD's by your
+Though, you'll need to run your user stories, and wireframes, by your
 instructors to get their feedback and approval before you begin coding! Remember
 to keep things small and focus on mastering the fundamentals as scope
 creep/feature creep is the biggest pitfall for any project!
@@ -57,7 +57,6 @@ By the time you submit this project, you will have covered new ground in, and re
 - Plan your application using
   - User Stories
   - Wireframes
-  - Entity Relationship Diagram's (ERD)
 - Present your project idea along with your planning documentation on **Wednesday 11/03** for project approval.
 
 ### Technical Requirements
@@ -67,6 +66,8 @@ By the time you submit this project, you will have covered new ground in, and re
 - Have full CRUD on at _least_ one of your models
 - Be able to Add/Delete on any remaining models
 - Have high quality code:
+    - Commit often and use meaningful commit messages
+    - Document your code well.
     - Follow accepted naming conventions
     - Consistent indentation
     - Well-structured and readable code
@@ -82,6 +83,7 @@ By the time you submit this project, you will have covered new ground in, and re
 ### Stretch Goals
 
 - Build a UML Use-case diagram
+- Use [JSDoc](https://jsdoc.app/) to document your project
 - Use a 3rd party API 
 - Make application responsive
 - High quality, professional design

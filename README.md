@@ -76,7 +76,7 @@ By the time you submit this project, you will have covered new ground in, and re
     - Efficient code - if you have your MVP, refactor
     - DRY (Don't Repeat Yourself) code
 - **Use MERN stack templates**.  You may choose not to, but you will need to get an approval.
-  - [Express API Template](https://github.com/sei-entropy/express-api-template) with [React Template](https://github.com/entropy/react-template)
+  - [Express API Template](https://github.com/sei-entropy/express-api-template) with [React Template](https://github.com/sei-entropy/react-template)
 - Be deployed on Heroku
 - **Craft a `README.md` file that explains your app**.
 
